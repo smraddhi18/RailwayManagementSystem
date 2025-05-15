@@ -10,21 +10,18 @@ A backend system that mimics IRCTC seat booking, supporting user registration, J
 
 ## 📦 Setup
 ```bash
-git clone <repo>
-cd irctc-api
+git clone https://github.com/smraddhi18/RailwayManagementSystem.git
 npm install
-cp .env.example .env
-# Fill in your DB credentials
 ```
 
 ## 📂 Initialize DB
 ```bash
-mysql -u root -p irctc < schema.sql
+mysql -u root  < src/db/schema.sql
 ```
 
 ## 🚀 Run Server
 ```bash
-npm start
+npm run dev
 ```
 
 ## ✅ API Endpoints
